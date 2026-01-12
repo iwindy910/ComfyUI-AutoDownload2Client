@@ -40,7 +40,7 @@ class AutoDownloadNode:
             
             PromptServer.instance.send_sync("auto_download_direct", {
                 "data": img_base64,
-                "filename": f"{filename_prefix}_{timestamp}_{index:02d}.png"
+                "filename": f"{filename_prefix}_{timestamp}.png"
             })
             
         return {"ui": {"images": []}}
