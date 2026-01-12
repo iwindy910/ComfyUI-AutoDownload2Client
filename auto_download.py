@@ -1,4 +1,3 @@
-import torch
 import numpy as np
 from PIL import Image
 import io
@@ -47,3 +46,4 @@ class AutoDownloadNode:
 
 NODE_CLASS_MAPPINGS = {"AutoDownloadNode": AutoDownloadNode}
 NODE_DISPLAY_NAME_MAPPINGS = {"AutoDownloadNode": "AutoDownload2Client"}
+
